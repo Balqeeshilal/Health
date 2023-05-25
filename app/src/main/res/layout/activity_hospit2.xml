@@ -25,6 +25,16 @@
         android:textAlignment="center"
         android:textSize="25dp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on it, to see more about it..."
+        android:textColor="#FCFF0101"
+        android:textAlignment="center"
+        android:textSize="18dp"/>
+
+
+
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
