@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l"
+    tools:context=".GastroActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Diseases that affect the daily function of the organ, slowing down the bowel movement and causing many health problems such as: irritable bowel syndrome, gastroesophageal reflux, food poisoning, constipation or diarrhea."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Symptoms of Gastrointestinal diseases:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Abdominal pain and cramps.2-Excess gas.3-Bloating. 4-A change in bowel habits, such as: stools that are firmer, softer, or more urgent than usual. 5-Alternating constipation and diarrhea. 5-Burping"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="prevention measures:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Take available vaccinations.2-Avoid excessive caffeine intake.3-Stay away from exposure to radiation continuously.4-Exercising regularly.5-Increase fiber in the diet.6-Avoid foods that cause certain digestive diseases.7-Reduce stress.8-Drink water at least 8 glasses a day.9-Sleep enough hours a day, at least 7 hours.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/back110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#a29088"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"/>
+
+</LinearLayout>

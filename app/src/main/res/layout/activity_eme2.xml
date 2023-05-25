@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/car"
+    tools:context=".EmeActivity2">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        android:text="you can call"
+        android:textAlignment="center"
+        android:textColor="#B9FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="9999"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="for ambulance and health emergencies in the Sultanate of Oman. You can also find contact numbers for healthcare facilities across the Sultanate of Oman through the Ministry of Health website."
+        android:textAlignment="center"
+        android:textColor="#B9FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/back"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#56FFFFFF"
+        android:text="Back"/>
+
+
+
+</LinearLayout>

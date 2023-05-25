@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KindeysActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="There are many reasons that damage the kidney tissues, and this damage may lead to the inability of the kidneys to remove toxins and excess fluids from the body."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Symptoms of Kindeys diseases:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Tired all the time.2-Shortness of breath even after minor exertion.3-Feeling weak or dizzy.4-You get confused.5-Feeling very itchy.6-Swelling of the hands, feet, or face.7-Feeling a strange taste in the mouth.8-Bad breath.9-Upset stomach, feeling sick or vomiting, and loss of appetite.10-Bubbles with urine.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="prevention measures:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Avoid overusing over-the-counter medications.2-High blood pressure and diabetes.3-Maintain physical activity.4-Maintain a healthy weight.5-Eat healthy balanced food.6-Stop smoking.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/back130"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#a29088"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"/>
+
+</LinearLayout>

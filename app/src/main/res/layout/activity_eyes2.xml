@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/l"
+    tools:context=".EyesActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Eye diseases are those problems that affect the eye and vision, whether they are common or chronic diseases, such as macular degeneration, cataracts, and glaucoma, in addition to problems of farsightedness and myopia.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Symptoms of eyes diseases:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Eye inflammation, pain, burning, or itching.2-Watery or dry eyes.3-Blurry or double vision. 4-Headache. 5-Sore neck, shoulders or back. 6-Increased sensitivity to light, called photophobia. 7-Difficulty concentrating.8-The feeling of not being able to keep the eyes open.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="prevention measures:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Obligation to follow up the periodic examination with a doctor. 2-Make sure to wear sunglasses while out in the sun. 3-Taking care of the contact lenses that we wear and making sure to sterilize them well. 4-Avoid sitting for long periods or directly in front of computer screens and electronic devices to prevent eye strain.5-Follow a healthy diet and exercise regularly.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/back77"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#a29088"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"/>
+
+</LinearLayout>

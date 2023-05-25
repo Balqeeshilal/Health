@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/l"
+    android:layout_height="match_parent"
+    tools:context=".BoneActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Osteoarthritis is a form of arthritis that occurs in the joints of the hands, hips, and knees. It causes joint cartilage to break down and the underlying bone to change, leading to pain, stiffness, swelling, and disability.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Symptoms of bone disease:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Pain when using the joint. 2-Joint stiffness and usually lasts less than 30 minutes in the morning or after resting time. 3-Swelling in the joint. 4-Poor ability to move the joint. 5-Feeling that the joint is unstable. 6-Hearing a sound when moving the joint."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="prevention measures:"
+        android:textColor="#E30E0E"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1-Maintain a healthy weight. 2-Maintaining physical activity.
+Quit Smoking. 3-Protect joints from injuries by doing special exercises for them. 4-Ensure that the work site is free of fall hazards and has the space, equipment and tools that are suitable for your physical ability.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/back66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#a29088"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"/>
+
+</LinearLayout>

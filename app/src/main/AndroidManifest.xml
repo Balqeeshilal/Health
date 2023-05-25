@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Health"
+        tools:targetApi="31">
+        <activity
+            android:name=".SummaryActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PkidneysActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PcancerActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PgastActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PdiabetnActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PskinActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PeyeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PboneActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PheartActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PharmaceuticalActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".KindeysActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".CancersActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".GastroActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DiabeticActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SkinActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EyesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BoneActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HeartActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".IllnessActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PrivtActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".GovActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".GynaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".OphthActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DentActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DermatActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".CardioActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".OrthActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EmeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HospitActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DrsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".OneActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
