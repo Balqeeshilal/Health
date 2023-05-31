@@ -8,6 +8,16 @@
     android:layout_height="match_parent"
     tools:context=".PeyeActivity2">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medications for eyes"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +39,7 @@
                 android:layout_height="match_parent"
                 android:text="Apraclonidine(أبراكلونديد)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -37,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:text="Reduces pressure inside the eye."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -65,7 +75,7 @@
                 android:layout_height="match_parent"
                 android:text="Epinastine(ابيناستين)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -73,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:text="Relief from itching associated with eye allergies.."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -101,7 +111,7 @@
                 android:layout_height="match_parent"
                 android:text="Epinephrine(ابينفرين)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -109,7 +119,7 @@
                 android:layout_height="wrap_content"
                 android:text="Reducing intraocular pressure."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -137,15 +147,15 @@
                 android:layout_height="match_parent"
                 android:text="Atropine(أتروبين)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="It causes mydriasis. It causes the eye muscles to relax."
+                android:text="It causes mydriasis.It causes the eye muscles to relax ."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -173,15 +183,15 @@
                 android:layout_height="match_parent"
                 android:text="Aciclovir(اسيكلوفير)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="It is used as a treatment for herpes simplex virus infection. The virus that causes chickenpox."
+                android:text="It is used as a treatment for herpes simplex virus infection. "
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -209,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:text="Acetazolamide(اسيتازولاميد)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -217,7 +227,7 @@
                 android:layout_height="wrap_content"
                 android:text="Reduces eye pressure."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -225,15 +235,15 @@
 
     <Button
         android:id="@+id/eback"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
         android:backgroundTint="#0C0C0C"
         android:text="Back"
         android:textColor="#EFE9EA"
+        android:textSize="13dp"
         android:textStyle="bold"
-        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0" />
 

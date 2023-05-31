@@ -8,6 +8,16 @@
     android:layout_height="match_parent"
     tools:context=".PskinActivity2">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medications for skin"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +39,7 @@
                 android:layout_height="match_parent"
                 android:text="Trimelasma Cream(ترايميلزما)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -37,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:text="To treat melasma."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -65,7 +75,7 @@
                 android:layout_height="match_parent"
                 android:text="Meloquin Cream(ميلوكين)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -73,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:text="To lighten and remove dark spots."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -101,7 +111,7 @@
                 android:layout_height="match_parent"
                 android:text="Texacort Cream(تكساكورت)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -109,7 +119,7 @@
                 android:layout_height="wrap_content"
                 android:text="It is used for eczema and psoriasis."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -137,7 +147,7 @@
                 android:layout_height="match_parent"
                 android:text="Nataria Cream(ناتاريا)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -145,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:text="It is used to get rid of pimples and treat burns."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -173,7 +183,7 @@
                 android:layout_height="match_parent"
                 android:text="Mupirax Ointment(ميوبيراكس)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -181,7 +191,7 @@
                 android:layout_height="wrap_content"
                 android:text="It is used to treat acne, burns and wounds"
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -209,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:text="Alfacort(الفاكورت)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -217,7 +227,7 @@
                 android:layout_height="wrap_content"
                 android:text="It is used to treat spots, melasma and eczema."
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
 
@@ -225,15 +235,15 @@
 
     <Button
         android:id="@+id/sback"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_height="36dp"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
         android:backgroundTint="#0C0C0C"
         android:text="Back"
         android:textColor="#EFE9EA"
+        android:textSize="13dp"
         android:textStyle="bold"
-        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0" />
 

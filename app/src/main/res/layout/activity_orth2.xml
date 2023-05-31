@@ -8,6 +8,16 @@
     android:background="@drawable/u"
     tools:context=".OrthActivity2">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orthopedic Doctors"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
     <Button
         android:id="@+id/click1"
         android:layout_width="match_parent"

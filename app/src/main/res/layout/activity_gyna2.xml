@@ -8,6 +8,16 @@
     android:background="@color/white"
     tools:context=".GynaActivity2">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gynaecologist Doctors"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
     <Button
         android:id="@+id/click6"
         android:layout_width="match_parent"

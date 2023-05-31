@@ -34,7 +34,7 @@ public class PrivtActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 webView=(WebView) findViewById(R.id.wv_click12);
                 webView.setWebViewClient(new WebViewClient());
-                webView.loadUrl("https://www.moh.gov.om/documents/18824/0/ACCREDITED++PRIVATE+HOSPITAL++IN+OMAN/ebeaae9a-36c0-fb20-94d6-4a44caa64fa6");
+                webView.loadUrl("https://muscatprivatehospital.com/");
             }
         });
     }

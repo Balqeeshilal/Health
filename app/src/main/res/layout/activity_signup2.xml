@@ -51,65 +51,68 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="2dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/txt_signup_username"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp">
+
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Write your Name">
+            android:hint="Write your Name"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txt_signup_username"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/baseline_person_24"
+
+            >
+
 
         </EditText>
 
 
-    </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/txt_signup_Email"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp">
+
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Write Your Email"
-            android:inputType="textEmailAddress">
+            android:drawablePadding="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txt_signup_Email"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:inputType="textEmailAddress"
 
-        </EditText>
+            />
 
 
-    </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:id="@+id/txt_signup_password"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        app:passwordToggleEnabled="true"
-        >
+
+
 
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Write Your Password"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="20dp"
+            android:id="@+id/txt_signup_password"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            app:passwordToggleEnabled="true"
+
+            
+
             >
 
         </EditText>
 
-
-    </com.google.android.material.textfield.TextInputLayout>
 
 
 

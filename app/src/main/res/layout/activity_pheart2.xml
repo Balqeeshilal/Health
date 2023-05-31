@@ -8,6 +8,16 @@
     android:layout_height="match_parent"
     tools:context=".PheartActivity2">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medications for heart"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
 
 
 
@@ -32,7 +42,7 @@
                 android:layout_height="match_parent"
                 android:text="Enalapril(اينالابريل)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -68,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:text="BENAZEPRIL(بينزابريل)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -106,7 +116,7 @@
                 android:layout_height="match_parent"
                 android:text="Lisinopril(ليسينوبريل)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -144,7 +154,7 @@
                 android:layout_height="match_parent"
                 android:text="Ramipril(راميبريل)"
                 android:textColor="#EC2026"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -192,15 +202,15 @@
 
     <Button
         android:id="@+id/hback"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
         android:backgroundTint="#0C0C0C"
         android:text="Back"
         android:textColor="#EFE9EA"
+        android:textSize="13dp"
         android:textStyle="bold"
-        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0" />
 
